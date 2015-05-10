@@ -27,5 +27,5 @@ ClassLoader::addNamespaces(array
 ClassLoader::addClasses(array
 (
 	// Classes
-	'Grid1200\Grid200Dca' => 'system/modules/grid_1200/classes/Grid1200Dca.php',
+	'Grid1200\Grid1200Dca' => 'system/modules/grid_1200/classes/Grid1200Dca.php',
 ));
