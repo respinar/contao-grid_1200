@@ -18,34 +18,21 @@
 	},
 	"require":{
 		"php":">=5.3",
-		"contao/core":">=3.2,<4",
+		"contao/core":">=3.2,<4-dev",
 		"contao-community-alliance/composer-plugin": "*"
-	},
-	"autoload":{
-		"classmap":[""]
 	},
 	"extra":{
 		"contao":{
 			"sources":{
 				"system/modules/grid_1200": "system/modules/grid_1200",
-				"assets/contao/css/grid-1200-12-ltr-uncompressed.css": "assets/contao/css/grid-1200-12-ltr-uncompressed.css",
-				"assets/contao/css/grid-1200-12-ltr.css": "assets/contao/css/grid-1200-12-ltr.css",
-				"assets/contao/css/grid-1200-12-ltr-wrapper-uncompressed": "grid-1200-12-ltr-wrapper-uncompressed",
-				"assets/contao/css/grid-1200-12-ltr-wrapper": "grid-1200-12-ltr-wrapper",
-				"assets/contao/css/grid-1200-12-rtl-uncompressed.css": "assets/contao/css/grid-1200-12-rtl-uncompressed.css",
-				"assets/contao/css/grid-1200-12-rtl.css": "assets/contao/css/grid-1200-12-rtl.css",
-				"assets/contao/css/grid-1200-12-rtl-wrapper-uncompressed.css": "assets/contao/css/grid-1200-12-rtl-wrapper-uncompressed.css",
-				"assets/contao/css/grid-1200-12-rtl-wrapper.css": "assets/contao/css/grid-1200-12-rtl-wrapper.css"
+				"assets/contao/css": "assets/contao/css"
 			},
 			"transifex": {
 				"project": "contao_grid_1200",
 				"prefix": "master-",
 				"languages_cto": "system/modules/grid_1200/languages",
 				"languages_tx": ".tx"
-			},
-			"runonce":[
-
-			]
+			}
 		}
 	}
 }
