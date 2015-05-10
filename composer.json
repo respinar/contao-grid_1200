@@ -1,0 +1,47 @@
+{
+	"name":"respinar/contao_grid_1200",
+	"description":"Adds a responsive 12-column pixel grid with 1200px in the layout css-framework.",
+	"keywords":["contao","grid","responsive","rtl"],
+	"type":"contao-module",
+	"homepage":"http://respinar.org",
+	"license":"GPL-3.0",
+	"authors":[
+		{
+			"name":"Hamid Abbaszadeh",
+			"homepage":"http://contao.ninja",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"issues":"https://github.com/respinar/contao_grid_1200/issues",
+		"source":"https://github.com/respinar/contao_grid_1200"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core":">=3.2,<4",
+		"contao-community-alliance/composer-plugin": "*"
+	},
+	"autoload":{
+		"classmap":[""]
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"system/modules/grid_16_columns": "system/modules/grid_16_columns",
+				"assets/contao/css/grid-1200-ltr-uncompressed.css": "assets/contao/css/grid-1200-ltr-uncompressed.css",
+				"assets/contao/css/grid-1200-ltr-wrapper-uncompressed": "grid-1200-ltr-wrapper-uncompressed",
+				"assets/contao/css/grid-1200-rtl-uncompressed.css": "assets/contao/css/grid-1200-rtl-uncompressed.css",
+				"assets/contao/css/grid-1200-rtl-wrapper-uncompressed.css": "assets/contao/css/grid-1200-rtl-wrapper-uncompressed.css"
+			},
+			"transifex": {
+				"project": "contao-grid_1200",
+				"prefix": "master-",
+				"languages_cto": "system/modules/grid_1200/languages",
+				"languages_tx": ".tx"
+			},
+			"runonce":[
+
+			]
+		}
+	}
+}
