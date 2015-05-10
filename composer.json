@@ -29,9 +29,13 @@
 			"sources":{
 				"system/modules/grid_16_columns": "system/modules/grid_16_columns",
 				"assets/contao/css/grid-1200-ltr-uncompressed.css": "assets/contao/css/grid-1200-ltr-uncompressed.css",
+				"assets/contao/css/grid-1200-ltr.css": "assets/contao/css/grid-1200-ltr.css",
 				"assets/contao/css/grid-1200-ltr-wrapper-uncompressed": "grid-1200-ltr-wrapper-uncompressed",
+				"assets/contao/css/grid-1200-ltr-wrapper": "grid-1200-ltr-wrapper",
 				"assets/contao/css/grid-1200-rtl-uncompressed.css": "assets/contao/css/grid-1200-rtl-uncompressed.css",
-				"assets/contao/css/grid-1200-rtl-wrapper-uncompressed.css": "assets/contao/css/grid-1200-rtl-wrapper-uncompressed.css"
+				"assets/contao/css/grid-1200-rtl.css": "assets/contao/css/grid-1200-rtl.css",
+				"assets/contao/css/grid-1200-rtl-wrapper-uncompressed.css": "assets/contao/css/grid-1200-rtl-wrapper-uncompressed.css",
+				"assets/contao/css/grid-1200-rtl-wrapper.css": "assets/contao/css/grid-1200-rtl-wrapper.css"
 			},
 			"transifex": {
 				"project": "contao-grid_1200",
