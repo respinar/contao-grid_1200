@@ -1,5 +1,5 @@
 {
-	"name":"respinar/contao_grid_1200",
+	"name":"respinar/contao-grid_1200",
 	"description":"Adds a responsive 12-column pixel grid with 1200px in the layout css-framework.",
 	"keywords":["contao","grid","responsive","1200px","rtl"],
 	"type":"contao-module",
@@ -13,8 +13,8 @@
 		}
 	],
 	"support":{
-		"issues":"https://github.com/respinar/contao_grid_1200/issues",
-		"source":"https://github.com/respinar/contao_grid_1200"
+		"issues":"https://github.com/respinar/contao-grid_1200/issues",
+		"source":"https://github.com/respinar/contao-grid_1200"
 	},
 	"require":{
 		"php":">=5.3",
