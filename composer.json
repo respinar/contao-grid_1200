@@ -35,7 +35,7 @@
 				"assets/contao/css/grid-1200-12-rtl-wrapper.css": "assets/contao/css/grid-1200-12-rtl-wrapper.css"
 			},
 			"transifex": {
-				"project": "contao-grid_1200",
+				"project": "contao-grid-1200",
 				"prefix": "master-",
 				"languages_cto": "system/modules/grid_1200/languages",
 				"languages_tx": ".tx"
